@@ -9,7 +9,7 @@ ________________________________________________________
 
 It contains three methods that can be used to either manually patch the framework file after build, or can be included in your custom build pipeline as the last step.
 
-`PatchDevelopmentFrameworkCode` - patches the unminified and uncompressed framework code. This is the "raw" code that `UnityJS.js` and `Unity.asm.js` files have.
+`PatchDevelopmentFrameworkCode` - patches the unminified and uncompressed framework code. This is the "raw" code that `UnityNative.js` and `UnityNative.asm.js` files have.
 
 `PatchUncompressedReleaseFrameworkCode` - patches the minified, but uncompressed framework code. This is what you get when you choose `Compression Format - Disabled` in the project settings of your WebGL target.
 
