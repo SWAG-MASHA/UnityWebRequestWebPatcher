@@ -1,3 +1,6 @@
+/// Copyright: SWAG MASHA LLC, 2020
+/// MIT license
+
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
